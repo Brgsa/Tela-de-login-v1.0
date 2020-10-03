@@ -1,0 +1,111 @@
+*{
+	box-sizing:border-box; 
+
+	font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: #E3E3E3;
+}
+
+.content-center div img{
+	width: 70%;
+}
+
+
+.content-center{
+	background-color: #FFFFFF;
+	padding: 20px;
+	width: 100%;
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 12px 12px 12px #C6C6C6;
+	border: none;
+}
+
+
+.content-center div input{
+	width: 70%;
+	height: 30px;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid black;
+	
+}
+
+.content-center div input:focus{
+	border-color: rgba(255, 241, 59, 1.5);
+
+}
+
+.content-center div input:hover{
+	border-color: #6F6F6F;
+}
+.texto p{
+	padding: 0;
+	margin-left: 30px;
+	text-align: left;	
+	font-size: 8pt;
+	padding: 10px;
+}
+
+.texto p a{
+	color: #000000;
+	text-decoration:underline;
+}
+
+.content-center div button{
+	background-color:#E8BA00;
+	border-radius: 5px;
+	width: 50%;
+	height: 30px;
+	border: none;
+
+}
+.content-center div button:hover{
+	background-color: #FFF63B;
+	border: none;
+	cursor: pointer;
+}
+
+.content-center div button:focus{
+	background-color: #FECC00;
+	outline: none;
+	
+}
+
+.content-center div button:active{
+	background-color: #CBB200;
+}
+
+body header,footer{
+	text-align: center;
+}
+
+
+/*register*/
+.content-center div.ckeck{
+    width: 10%;
+    margin-left:40px;
+}
+
+.content-center div .mas{
+
+}
+
+.content-center div .fem{  
+
+}
+.content-center div spam{
+	font-size: 0.9em;
+	padding: 0px;
+
+	
+}
+
+
+
+
+
